@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cabecalho{
+    background-color: #2B3467;       /* Cor de fundo */
+    color: #FCFFE7;        /* Cor da letra (fonte) */
+    padding: 40px 160px;      /* Espaçamento interno */
+    border-bottom: 2px solid #FCFFE7;
+}
+.cabecalho h1{
+    font-size: 24px;  /* Tamanho da fonte */
+    font-weight: 200; /* Peso gráfico da fonte "negrito" */
+    text-transform: uppercase; /* Converter as letras para maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre letras */
+    
+}
+.navegacao{
+    background-color: #EB455F;
+    padding: 16px 160px;
+    text-align: center; /* Alinha o conteúdo no centro */
+}
+
+.navegacao a{
+    text-decoration: none;  /* Remover  underline do link */
+    color: #EB455F;
+    background-color:#BAD7E9;
+    padding: 8px 16px;
+    margin: 0 16px;
+    border-radius: 16px;  /* Arredonda os cantos */
+    font-weight: 600;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: .5s;
+}
+.navegacao a:hover{  /* Pseudo-classe hover, quando o mouse está sobre o elemento */
+    box-shadow: none;
+    background-color: #2B3467;
+    transition: .5s;
+}
+.principal{
+    padding: 120px 160px;
+    text-align: center;
+}
+.principal h2{
+    font-weight: 200;
+    font-size: 40px;
+    color: #2B3467;
+    margin-bottom: 64px; /* Margem inferior, separa do elemento abaixo */
+}
+.principal img{
+    width: 60%;
+}
+.principal figcaption{
+    background-color: #BAD7E9;
+    color: #2B3467;
+    padding: 8px 0;
+    width: 60%; /* Ocupa 60% do espaço disponível - sobra 40% */
+    margin: auto; /* distribui a sobra (40%) em duas partes iguais, ditreita e esquerda */
+
+}
+.secao__listas{
+    padding: 40px 160px;
+}
+.secao__listas h3{
+    background-color: #BAD7E9;
+    padding: 8px 16px;
+    color: #2B3467;
+    border: 1px solid #2B3467;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+.secao__listas h4{
+    color: #EB455F;
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-size: 24px;
+}
+.secao__listas ul, .secao__listas ol{
+    margin-bottom: 20px;
+}
+.secao__listas li{
+    line-height: 2;
+    font-size: 14px;
+    color: #2B3467;
+}
+.rodape{
+    background-color: #2B3467;
+    color: #FCFFE7;
+    padding: 20px 160px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.rodape h5{
+    text-decoration: 2px overline underline;
+}
